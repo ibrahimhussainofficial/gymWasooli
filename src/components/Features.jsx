@@ -61,8 +61,8 @@ const OptimizeSection = () => {
           variants={fadeUp}
           custom={2}
         >
-          Take full control of your gym operation with powerful tools for tracking revenue,
-          managing members, scheduling classes and more.
+          Take full control of your gym operation with powerful tools for
+          tracking revenue, managing members, scheduling classes and more.
         </motion.p>
 
         {/* Feature Cards */}
@@ -75,7 +75,9 @@ const OptimizeSection = () => {
               custom={index + 3}
             >
               <div className="text-4xl mb-4">{icon}</div>
-              <h3 className="text-lg font-semibold mb-3 text-gray-200">{title}</h3>
+              <h3 className="text-lg font-semibold mb-3 text-gray-200">
+                {title}
+              </h3>
               <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
             </motion.div>
           ))}

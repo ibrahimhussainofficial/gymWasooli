@@ -118,7 +118,6 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center text-center min-h-screen">
-        
         {/* Title */}
         <motion.h1
           className="text-5xl md:text-7xl font-extrabold mb-6 max-w-5xl"
@@ -200,7 +199,8 @@ const Hero = () => {
           custom={4}
         >
           Experience seamless gym management with{" "}
-          <span className="text-red-800 font-semibold">Gym Wasooli</span> — built to scale with your fitness business.
+          <span className="text-red-800 font-semibold">Gym Wasooli</span> —
+          built to scale with your fitness business.
         </motion.p>
 
         {/* Partner logos with Pop Effect */}

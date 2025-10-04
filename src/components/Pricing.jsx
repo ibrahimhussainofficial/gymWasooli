@@ -84,8 +84,8 @@ export default function Pricing() {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Our flexible pricing options ensure you have access to the features you
-          need, without breaking the bank.
+          Our flexible pricing options ensure you have access to the features
+          you need, without breaking the bank.
         </motion.p>
 
         {/* Pricing Cards */}

@@ -79,7 +79,12 @@ export default function Footer() {
         }}
       >
         {/* Logo + Name */}
-        <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <div className="flex items-center space-x-2 mb-4">
             <img src="./logo.png" alt="" className="w-14" />
             <span className="text-xl font-bold text-white">GymWasooli</span>
@@ -90,35 +95,98 @@ export default function Footer() {
         </motion.div>
 
         {/* Product */}
-        <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <h4 className="font-semibold text-white mb-4">Product</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-red-600 transition">Features</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Pricing</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Dashboard</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Class Scheduling</a></li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Class Scheduling
+              </a>
+            </li>
           </ul>
         </motion.div>
 
         {/* Company */}
-        <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <h4 className="font-semibold text-white mb-4">Company</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-red-600 transition">About Us</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Careers</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Blog</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Contact</a></li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Contact
+              </a>
+            </li>
           </ul>
         </motion.div>
 
         {/* Legal */}
-        <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <h4 className="font-semibold text-white mb-4">Legal</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-red-600 transition">Terms of Service</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Data Protection</a></li>
-            <li><a href="#" className="hover:text-red-600 transition">Cookie Policy</a></li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Terms of Service
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Data Protection
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-600 transition">
+                Cookie Policy
+              </a>
+            </li>
           </ul>
         </motion.div>
       </motion.div>

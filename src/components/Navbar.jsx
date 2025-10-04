@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router"; 
+import { Link } from "react-router";
 
 // Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -46,7 +46,11 @@ export default function Navbar() {
             onClick={handleNavigate}
             className="flex items-center gap-2"
           >
-            <img src="./logo.png" alt="Wasooli Logo" className="h-10 invert brightness-0" />
+            <img
+              src="./logo.png"
+              alt="Wasooli Logo"
+              className="h-10 invert brightness-0"
+            />
           </Link>
         </div>
 
